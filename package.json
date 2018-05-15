@@ -1,0 +1,18 @@
+{
+  "name": "ts-examples",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -p .tsconfig.json",
+    "compile:strict": "tsc --strictNullChecks -p .tsconfig.json"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Agnislav Onufriichuk",
+  "license": "JSON",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
